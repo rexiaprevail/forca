@@ -1,0 +1,81 @@
+/* Simple selector */
+body {
+  margin: 0px;
+}
+header {
+  text-align: center;
+  background-color: #0e0e0e;
+  color: white;
+  padding: 10px 15px;
+}
+
+a {
+  color: #0e0e0e;
+  text-decoration: none;
+}
+
+menu {
+  list-style: none;
+}
+
+/* Combinator selector */
+header > h1 {
+  color: #f4f4f4;
+}
+
+/* Contextual selector */
+header h1 {
+  font-size: 2.7em;
+  font-family: "Raleway", sans-serif;
+}
+
+section div {
+  padding: 5px;
+}
+
+menu li {
+  padding: 0px 10px;
+  border-right: solid 2px #0e0e0e;
+}
+
+/* Grouped selector */
+p,
+a,
+li {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+}
+
+/* Class selector */
+.example-row {
+  padding: 2% 5%;
+}
+
+.list-group {
+  display: grid;
+  grid-template-columns: 75% 25%;
+}
+
+.lg-one menu {
+  display: flex;
+}
+
+/* ID selector */
+#six-column {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Pseudo-Class selector */
+a:link {
+  color: #0000bf;
+}
+menu a:hover {
+  font-weight: 600;
+}
+/* Structural Pseudo-Class selector */
+
+/* Pseudo-Element selector */
+
+/* Attribute selector */
